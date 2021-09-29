@@ -1,0 +1,21 @@
+{
+  "name": "library-backend",
+  "version": "1.0.0",
+  "description": "this is my library app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "joi": "^17.4.2",
+    "mongoose": "^6.0.8",
+    "morgan": "^1.10.0"
+  }
+}
