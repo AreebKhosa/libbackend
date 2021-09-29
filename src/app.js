@@ -14,7 +14,7 @@ app.get("/",(req,res)=>{
     })
 })
 
-app.use("/user",UserRotues)
+app.use("/users",UserRotues)
 
 app.use(async(req,res,next)=>{
     await next(createErrors.NotFound())
